@@ -48,11 +48,12 @@ python data.esmfold_pro.py
 
 You can find a detailed explanation of the parameters in ```./src/utils/args.py```.
 
-```
 To reproduce the results in the paper, you can run the following for **native-bound** and **ESMFold** inference settings.
+
 ```
 python /src/train.py -inf_data nativebound
 ```
+
 ```
 python /src/train.py -inf_data esmfold
 ```
