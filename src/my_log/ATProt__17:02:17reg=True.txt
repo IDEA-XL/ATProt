@@ -1,0 +1,20 @@
+[2024-06-13 17:02:17.694841] START
+[2024-06-13 17:02:17.696646] 
+
+
+[2024-06-13 17:02:17.696739] # Loading dataset: db5
+[2024-06-13 17:02:17.696785] # Num_worker:0
+[2024-06-13 17:02:18.504298]  Train:203, Valid:25, Test :25
+[2024-06-13 17:02:18.505982] input_edge_feats_dim :  27
+[2024-06-13 17:02:18.796302] Number of parameters = 68,683
+[2024-06-13 17:02:18.796573] 
+
+
+[2024-06-13 17:02:18.796632] # Loading dataset: db5
+[2024-06-13 17:02:18.796668] # Num_worker:0
+[2024-06-13 17:02:19.383555]  Train:203, Valid:25, Test :25
+[2024-06-13 17:02:19.384867] input_edge_feats_dim :  27
+[2024-06-13 17:02:19.385393] {'esm': True, 'debug': False, 'log_every': 100000, 'random_seed': 80, 'data': 'db5', 'data_fraction': 1.0, 'split': 0, 'worker': 5, 'n_jobs': 40, 'w_decay': 0.001, 'scheduler': 'ROP', 'warmup': 0.6, 'patience': 20, 'num_epochs': 3, 'clip': 100.0, 'kab_dim': 64, 'reg': True, 'bs': 4, 'lr': 0.0004, 'SEGCN_layer': 1, 'h_dim': 32, 'e_dim': 32, 'bern_k': 5, 'cls_mul': True, 'mu_r_norm': True, 'res_feat': True, 'dp_encoder': 0.1, 'dp_cls': 0.0, 'sampling': True, 'graph_nodes': 'residues', 'graph_cutoff': 30.0, 'graph_max_neighbor': 10, 'graph_residue_loc_is_alphaC': False, 'pocket_cutoff': 8.0, 'translation_interval': 5.0, 'rot_model': 'kb_att', 'atten_head': 8, 'pocket_ot_loss_weight': 1.0, 'gamma': 0.2, 'intersection_loss_weight': 10.0, 'intersection_sigma': 25.0, 'intersection_surface_ct': 10.0, 'p_rmsd': 10, 'layer_norm': 'BN', 'layer_norm_coors': '0', 'final_h_layer_norm': '0', 'nonlin': 'lkyrelu', 'iegmn_lay_hid_dim': 32, 'iegmn_n_lays': 5, 'residue_emb_dim': 64, 'shared_layers': False, 'cross_msgs': False, 'divide_coors_dist': False, 'use_only_esm': False, 'use_dist_in_layers': False, 'use_edge_features_in_gmn': False, 'noise_decay_rate': 0.0, 'noise_initial': 0.0, 'use_mean_node_features': False, 'skip_weight_h': 0.5, 'leakyrelu_neg_slope': 0.01, 'prody': True, 'stage_2': False, 'x_connection_init': 0.0, 'hyper_search': False, 'fine_tune': False, 'toy': True, 'continue_train_model': '', 'device': device(type='cuda', index=1), 'cache_path': '../cache_esmfold/db5_residues_maxneighbor_10_cutoff_30.0_pocketCut_8.0/cv_0', 'checkpoint_dir': './checkpoints/ATProt__17:02:17reg=True', 'tb_log_dir': './tb_logs/ATProt__17:02:17reg=True', 'finetune': False, 'input_edge_feats_dim': 27, 'checkpoint_filename': './checkpoints/ATProt__17:02:17reg=True/db5_model_best.pth'}
+[2024-06-13 17:02:19.385552] ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[2024-06-13 17:02:19.385594] Model name ===>  ATProt__17:02:17reg=True
+[2024-06-13 17:02:19.385632] epoch =  0 stage 2 =  False
