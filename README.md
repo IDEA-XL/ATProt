@@ -31,7 +31,7 @@ First, generate the required graph structured data for complex with our code. Th
 For data preparations, you can choose the configuration as follows:
 - **data**. \["dips","db5"\]: Datasets will be processed separately, so please choose one.
 - **graph_cutoff**. If the physical distance between two residues in a protein is less than this value, they will be assigned an edge in the KNN graph.
-- **graph_max_neighbor**. It means
+- **graph_max_neighbor**. It means the maximum number of neighbors for each central residue.
 - **pocket_cutoff**. If the physical distance between inter-protein residues is less than this value, they will be considered in the pocket.
 
 You can preprocess the raw data as follows for DB5.5:
