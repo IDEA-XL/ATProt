@@ -58,3 +58,15 @@ python /src/train.py -inf_data nativebound
 python /src/train.py -inf_data esmfold
 ```
 
+## How to cite
+```
+@article{gao2024towards,
+  title={Towards stable representations for protein interface prediction},
+  author={Gao, Ziqi and Liu, Zijing and Li, Yu and Li, Jia},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={73079--73097},
+  year={2024}
+}
+```
+```
